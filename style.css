@@ -183,7 +183,7 @@ section#about { overflow: auto; }
     }
 }
 @media (max-width: 768px) {
- {
+ header { 
         position: relative; 
         padding: 0.5rem;
     }
@@ -207,3 +207,4 @@ section#about { overflow: auto; }
         font-size: 1.8rem; 
     }
 }
+
