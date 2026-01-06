@@ -183,14 +183,27 @@ section#about { overflow: auto; }
     }
 }
 @media (max-width: 768px) {
+ {
+        position: relative; 
+        padding: 0.5rem;
+    }
     nav a {
-        display: block; 
-        margin: 10px 0;
+        display: block;
+        margin: 5px 0;
+        padding: 5px; 
         border-bottom: 1px solid rgba(255,255,255,0.2);
     }
+    
+    nav a:last-child {
+        border-bottom: none;
+    }
+
     #about img {
         float: none;
         width: 100%;
         margin: 0 0 1rem 0;
+    }
+    .hero h2 {
+        font-size: 1.8rem; 
     }
 }
